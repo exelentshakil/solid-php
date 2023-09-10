@@ -1,5 +1,7 @@
 <?php
-
+use Exelentshakil\SolidPhp\Bakery;
+use Exelentshakil\SolidPhp\Menu;
+use Exelentshakil\SolidPhp\Oven;
 use PHPUnit\Framework\TestCase;
 
 class MenuTest extends TestCase {

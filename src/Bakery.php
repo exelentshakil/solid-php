@@ -14,7 +14,7 @@ class Bakery {
         $item = $this->menu->getItem($itemName);
         if ($item) {
             $this->oven->bake($item);
-            return "Baking $itemName...";
+            return "Baking {$itemName} in the oven...";
         } else {
             return "Item not found in the menu.";
         }
