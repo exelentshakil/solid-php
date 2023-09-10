@@ -1,0 +1,19 @@
+{
+    "name": "exelentshakil/solid-php",
+    "description": "PHP implementation of SOLID priciples.",
+    "type": "project",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Exelentshakil\\SolidPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "exelentshakil",
+            "email": "exelentshakil@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
