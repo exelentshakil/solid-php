@@ -2,26 +2,6 @@
 
 This project demonstrates the SOLID principles using PHP in a simple bakery management system. Each principle is illustrated with code examples for better understanding.
 
-## Project Structure 📂
-
-solid-php-bakery/
-│
-├── src/
-│ ├── Bakery.php
-│ ├── Menu.php
-│ ├── Oven.php
-│
-├── tests/
-│ ├── BakeryTest.php
-│ ├── MenuTest.php
-│ ├── OvenTest.php
-│
-├── composer.json
-├── composer.lock
-│
-└── README.md
-└── solid-php.php
-
 ## SOLID Principles 🤖
 
 ### Single Responsibility Principle (SRP) 🎯
@@ -49,8 +29,6 @@ High-level modules like `Bakery` depend on abstractions (e.g., `Menu` and `Oven`
 Instantiate and use bakery components in your PHP code.
 
 ```php
-<?php
-
 <?php
 
 // Instantiate the components
